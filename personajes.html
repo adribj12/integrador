@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Integrador</title>
+</head>
+<body>
+    <header class="row d-flex justify-content-center align-items-center mx-0 header">
+        <nav class="col-lg-12 col-11 justify-content-lg-between justify-content-center align-items-center d-flex flex-row  ">
+        <div class="col-12 align-items-center justify-content-start d-flex flex-row">
+            <div class="container">
+                <a href="index.html" class="btn-vert btn-vert-rojo"><-VOLVER</a>
+                <a href="buscador.html" class="btn-vert btn-vert-rojo">Busqueda</a>
+                <a href="https://rickandmortyapi.com/documentation" class="btn-vert btn-vert-rojo" target="_blank">DOCS</a>    
+            </div>
+    </header>
+
+    <div class="contenedor-personajes">
+        <h2 class="personajes">Detalles del Personaje</h2>
+    </div>
+    <div class="contenedor-personajes">
+        <div id="characterDetails" class="results"></div>
+    </div>
+    <div class="contenedor-personajes">
+        <button class="button-blue button-blue-2" onclick="irAlPersonajeAnterior()">Personaje Anterior</button>
+        <button class="button-blue button-blue-2" onclick="irAlSiguientePersonaje()">Siguiente Personaje</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="personajes.js"></script>
+
+
+    
+
+</body>
+</html>

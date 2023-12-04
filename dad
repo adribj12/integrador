@@ -1,0 +1,17 @@
+
+ <div class="row pt-5 d-flex flex-column justify-content-center align-items-center">
+<div class="col-8 d-flex flex-column justify-content-start align-items-center browse--body">
+    <div class="col-12 my-4 d-flex flex-column justify-content-center align-items-start">
+        <label class="w-auto mb-3 fs-3 fw-bold product--title" for="search">SEARCH</label>
+        <div class="col-12 d-flex flex-row-reverse justify-content-center align-items-center shadow-lg">
+            <input class="col-11 px-2 py-3 fs-4 border-0 rounded-end browse--input" type="text" name="search" id="search">
+            <i class="fa-solid fa-magnifying-glass col-1 py-4 fs-5 rounded-start text-center browse--icon"></i>
+        </div>
+    </div>
+    <div class="col-12 my-4 d-flex flex-row flex-wrap justify-content-start align-items-center browse--results">
+    </div>
+</div>
+</div>
+
+<script>
+</script>
